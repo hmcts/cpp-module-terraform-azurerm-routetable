@@ -1,7 +1,4 @@
-output "resource_group_name" {
-  value = "resource_group_name"
-}
-
-output "resource_group_location" {
-  value = "resource_group_location"
+output "routetable_id" {
+  description = "The id of the newly created Route Table"
+  value       = azurerm_route_table.rtable.id
 }
