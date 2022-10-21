@@ -1,7 +1,7 @@
 name: CPP Azure route table module
 trigger: none
 pr:
-- dev/EI-887
+- main
 
 resources:
   repositories:
