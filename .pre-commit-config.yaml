@@ -8,8 +8,8 @@ repos:
     -   id: end-of-file-fixer
     -   id: check-yaml
     -   id: check-added-large-files
-- repo: https://github.com/antonbabenko/pre-commit-terraform
-  rev: v1.76.0
+- repo: https://github.com/hmcts/cpp-hooks-pre-commit-terraform
+  rev: dev/EI-894
   hooks:
     - id: terraform_fmt
     - id: terraform_validate
