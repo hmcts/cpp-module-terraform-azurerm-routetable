@@ -21,3 +21,4 @@ repos:
   rev: v8.2.0
   hooks:
     - id: gitleaks
+      args: ['--branch', 'dev/EI-887']
