@@ -1,3 +1,3 @@
 variable "location" {
-  default = "eastus"
+  default = "uksouth"
 }
