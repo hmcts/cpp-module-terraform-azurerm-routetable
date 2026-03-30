@@ -13,9 +13,10 @@ variable "route_table_name" {
   default     = "routetable"
 }
 
-variable "disable_bgp_route_propagation" {
-  description = "Boolean flag which controls propagation of routes learned by BGP on that route table. True means disable."
-  default     = "true"
+variable "bgp_route_propagation_enabled" {
+  description = "Boolean flag which controls propagation of routes learned by BGP on that route table. True means enable."
+  type        = bool
+  default     = false
 }
 
 variable "route_prefixes" {

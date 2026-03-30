@@ -19,7 +19,9 @@ module "routetable" {
   //next_hop_in_ip_address = "null"
 
   tags = {
-    environment = "dev"
-    costcenter  = "it"
+    environment  = "dev"
+    application  = "test"
+    businessArea = "Crime"
+    builtFrom    = "cpp-module-terraform-azurerm-routetable"
   }
 }
